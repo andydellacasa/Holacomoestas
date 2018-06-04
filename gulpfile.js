@@ -1,11 +1,11 @@
 const gulp = require('gulp');
 
 gulp.task('default', () =>
-  gulp.src('./*')
-    .pipe(gulp.dest('./'))
+  gulp.src('./Holacomoestas')
+    .pipe(gulp.dest('./Holacomoestas'))
   );
 
 
 gulp.task('default', () => {
-  gulp.watch('./', ['default']);
+  gulp.watch('./Holacomoestas', ['default']);
 });
